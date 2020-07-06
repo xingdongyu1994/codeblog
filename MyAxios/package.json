@@ -1,0 +1,18 @@
+{
+  "name": "myaxios",
+  "version": "1.0.0",
+  "description": "axios轮子",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel src/index.html"
+  },
+  "keywords": [
+    "axios轮子"
+  ],
+  "author": "xingdongyu",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
