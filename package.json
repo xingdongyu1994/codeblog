@@ -3,5 +3,9 @@
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
-  }
+  },
+  "keywords": [
+    "造轮子"
+  ],
+  "author": "xingdongyu"
 }
