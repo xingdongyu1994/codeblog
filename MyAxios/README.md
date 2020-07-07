@@ -65,7 +65,7 @@
 
 - 第四步 拦截器
 
-  1. 看下我们实战用的
+  1.看下我们实战用的
 
   ```
     // 请求拦截
@@ -82,22 +82,22 @@
     })
   ```
 
+  interceptors 属性 有一个 request response
+  new 出一个 intercept 实例
+  use 每次都添加到队列一项
 
-    interceptors属性 有一个request  response
-    new出一个intercept实例
-    use每次都添加到队列一项
-
-````
-
-2. 需要我们建立队列来存储这些 use 的回调
   ```
-    queue = []
-    queue.push(resolveHandle,rejectHandle)
+  2. 需要我们建立队列来存储这些 use 的回调
   ```
-3. request队列存储了用户use成功错误的回调 response队列存储了用户use成功错误的回调
-4. 在发送xhrRequest前得到request.queue队列 遍历执行
-5. 在发送xhrResponse后得到response.queue队列 遍历执行
-````
+
+  queue = []
+  queue.push(resolveHandle,rejectHandle)
+
+  ```
+  3. request队列存储了用户use成功错误的回调 response队列存储了用户use成功错误的回调
+  4. 在发送xhrRequest前得到request.queue队列 遍历执行
+  5. 在发送xhrResponse后得到response.queue队列 遍历执行
+  ```
 
 总结：
 我们简单一个 MyAxios 已经实现完毕 总结几个点就是
