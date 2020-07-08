@@ -1,10 +1,10 @@
 # codeblog
 
-一起造轮子
+造轮子
 
-codeblog 零开始逐步实现前端比较经典的轮子源码
+codeblog 零开始逐步简单实现前端比较经典的轮子源码 以能理解原理为目的
 
-- [ ] Redux
+- [x] Redux
 - [ ] react-redux
 - [ ] react
 - [x] axios
@@ -13,4 +13,4 @@ codeblog 零开始逐步实现前端比较经典的轮子源码
 - [ ] react fiber 架构
 
 ......
-都会托管在 github 上
+都会放在 github 上
