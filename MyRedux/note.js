@@ -9,7 +9,7 @@
         所有的状态存在一个对象上 
 
       是一个框架不一定是跟react结合使用  
-  1. 平常使用
+  2. 平常使用
       
       import {createStore} from 'redux'
 

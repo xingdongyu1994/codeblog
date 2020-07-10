@@ -11,6 +11,7 @@ codeblog 零开始逐步简单实现前端比较经典的轮子源码 以能理�
 - [ ] webpack
 - [ ] JSON.stringify JSON.parse
 - [ ] react fiber 架构
+- [x] promise
 
 ......
 都会放在 github 上
