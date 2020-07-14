@@ -1,0 +1,29 @@
+{
+  "name": "mywebpack",
+  "version": "1.0.0",
+  "description": "mywebpack 轮子",
+  "main": "inter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "webpack": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/highlight": "^7.0.0",
+    "@babel/parser": "^7.1.3",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/traverse": "^7.1.4",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
