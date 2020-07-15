@@ -13,6 +13,7 @@ codeblog 零开始逐步简单实现前端比较经典的轮子源码 以能理�
 - [ ] JSON.stringify JSON.parse
 - [ ] react fiber 架构
 - [x] promise
+- [x] requireJS
 - [x] localStorage 过期封装
 - [x] es6
   - [x] set
