@@ -5,7 +5,7 @@
 codeblog 零开始逐步简单实现前端比较经典的轮子源码 以能理解原理为目的
 
 - [x] Redux
-- [ ] react-redux
+- [x] react-redux
 - [ ] react
 - [x] react-router
 - [x] axios
