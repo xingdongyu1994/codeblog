@@ -6,12 +6,14 @@ codeblog 零开始逐步简单实现前端比较经典的轮子源码 以能理�
 
 - [x] Redux
 - [x] react-redux
-- [ ] react
 - [x] react-router
 - [x] axios
 - [x] webpack 知识点
 - [ ] JSON.stringify JSON.parse
 - [ ] react fiber 架构
+  - [x] react fiber 初次渲染
+  - [ ] react fiber setState 更新
+  - [ ] react fiber 事件
 - [x] promise
 - [x] requireJS
 - [x] localStorage 过期封装
