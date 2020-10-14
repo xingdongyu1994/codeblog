@@ -24,6 +24,7 @@ codeblog 零开始逐步简单实现前端比较经典的轮子源码 以能理�
   - [x] map
   - [x] async await generator
   - [x] proxy Object.defineProperty
+- [ ] 深度思考
 
 ......
 都会放在 github 上
