@@ -10,5 +10,8 @@
     "轮子",
     "实现轮子"
   ],
-  "author": "xingdongyu"
+  "author": "xingdongyu",
+  "dependencies": {
+    "tapable": "^2.0.0"
+  }
 }

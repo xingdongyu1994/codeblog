@@ -1,9 +1,30 @@
-1. 1 .webpack-dev-server
+文件修改完后会重新打包  然后通知到浏览器端  浏览器端将新模块替换旧的模块
+
+webpack-dev-server
     热更新  热模块替换
   分为两个部分  一个服务端 一个客户端
+  websocket 在客户端 服务端建立连接
+
+
         服务端
   webpack 负责编译
   express作为一个服务器
+  websocket服务
+  webpack-dev-middleware  启动文件系统
+
+      客户端
+  建立websocket客户端连接
+  监听hash  ok事件
+
+
+
+
+
+  
   memory内部系统 将outputfileSystem替换成memorySystem  拦截浏览器请求从文件系统中取出结果
   初始化阶段
       WebpackDevMiddleware 
+
+
+
+

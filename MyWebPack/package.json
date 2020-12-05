@@ -2,7 +2,7 @@
   "name": "mywebpack",
   "version": "1.0.0",
   "description": "mywebpack 轮子",
-  "main": "inter.js",
+  "main": "./src/xunhuanyilai/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js",
